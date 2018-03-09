@@ -4,6 +4,8 @@ The playbook is a collection of code snippets that show common programming patte
 
 You may will encounter many similar programming tasks in your coursework. Build your own playbook to keep track of your programming tricks!
 
+To view the full list of methods available in Battleship, [read the API docs.](api.md)
+
 ## Basic Plays
 
 ### Checking if a ship is on your team

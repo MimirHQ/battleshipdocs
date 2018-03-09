@@ -12,7 +12,7 @@ This guide lists all of the methods available to you in Battleship.
 * [Coord Class](#coord-class)
 * [Direction Enum](#direction-enum)
 
-To see common programming tasks in Battleship, [view the playbook.](/playbook)
+To see common programming tasks in Battleship, [view the playbook.](playbook)
 
 ## Ship Class
 
