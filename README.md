@@ -12,7 +12,7 @@ Battleship is an extensible naval strategy game designed to teach students about
 
 [Read this guide](api.md) to learn how to play Battleship.
 
-### Playbook
+## Playbook
 
 [Read the playbook](playbook.md) to learn common programming patterns in Battleship.
 
