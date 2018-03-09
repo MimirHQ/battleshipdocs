@@ -44,7 +44,7 @@ Program your ship’s strategy by filling in the `doTurn()` method. This method 
 
 These methods are used to set the properties of your ship.
 
-```
+```java
 void initializeName(String name)
 void initializeOwner(String owner)
 void initializeHull(int hull)
@@ -57,7 +57,7 @@ void initializeRange(int range)
 
 These methods can only be called the ship they belong to.
 
-```
+```java
 void move(Arena arena, Direction direction)
 void fire(Arena arena, int x, int y)
 List<Ship> getNearbyShips(Arena arena)
@@ -67,24 +67,24 @@ List<Ship> getNearbyShips(Arena arena)
 
 These methods can be called on any ship.
 
-```
+```java
 boolean isSameTeamAs(Ship ship)
 String getTeam()
 ```
 
-```
+```java
 Coord getCoord()
 int getRemainingMoves()
 int getRemainingShots()
 ```
 
-```
+```java
 boolean isSunk()
 Ship getSunkBy()
 Coord getSunkAt()
 ```
 
-```
+```java
 Ship getName()
 Ship getOwner()
 int getHealth()
@@ -96,14 +96,14 @@ int getRange()
 
 ## Arena Class
 
-```
+```java
 int getXSize()
 int getYSize()
 int getTurn()
 Random getRandom()
 ```
 
-```
+```java
 boolean isInRange(Ship source, Ship target)
 Ship getShipAt(int x, int y)
 int countLiveShips()
@@ -113,14 +113,14 @@ List<Ship> getAllSpawnedShips()
 
 ## Coord Class
 
-```
+```java
 int getX()
 int getY()
 ```
 
 ## Direction Enum
 
-```
+```java
 Direction.NORTH
 Direction.SOUTH
 Direction.WEST
