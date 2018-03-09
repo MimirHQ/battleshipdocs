@@ -12,6 +12,10 @@ Battleship is an extensible naval strategy game designed to teach students about
 
 [Read this guide](api.md) to learn how to play Battleship.
 
+### Playbook
+
+[Read the playbook](playbook.md) to learn common programming patterns in Battleship.
+
 ## About
 
 Battleship is an open source project created by the Illinois Institute of Technology's Exelon Summer Institute. This fork is maintained by Mimir.

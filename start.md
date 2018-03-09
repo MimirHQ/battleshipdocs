@@ -26,7 +26,7 @@ Then conduct reconnaissance on the enemy ships by reading their source files.
 
 ## Developing Your Ship
 
-Implement your ship in `PlayerShip.java`. [Read the API guide](https://mimirhq.github.io/battleshipdocs/) to learn how to use the battleship methods.
+Implement your ship in `PlayerShip.java`. [Read the API guide](api.md) to learn how to use the battleship methods.
 
 ## Running the Mission
 

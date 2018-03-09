@@ -6,6 +6,25 @@ You may will encounter many similar programming tasks in your coursework. Build 
 
 To view the full list of methods available in Battleship, [read the API docs.](api.md)
 
+## Table of Contents
+
+* Basic Plays
+	* [Checking if a ship is on your team](#checking-if-a-ship-is-on-your-team)
+	* [Checking if a ship is in range](#checking-if-a-ship-is-in-range)
+	* [Moving towards a fixed coordinate](#moving-towards-a-fixed-coordinate)
+	* [Changing behavior on different turns](#changing-behavior-on-different-turns)
+* Advanced Plays
+	* [Firing until a ship sinks](#firing-until-a-ship-sinks)
+	* [Looping over every ship in a list](#looping-over-every-ship-in-a-list)
+	* [Find the minimum or maximum ship in a list](#find-the-minimum-or-maximum-ship-in-a-list)
+	* [Sorting a list of ships](#sorting-a-list-of-ships)
+	* [Tracking information over multiple turns](#tracking-information-over-multiple-turns)
+* Elite Plays
+	* [Grouping blocks of code into functions](#grouping-blocks-of-code-into-functions)
+	* [Using seeded randomness](#using-seeded-randomness)
+	* [Casting a ship to a subclass](#casting-a-ship-to-a-subclass)
+	* [Sharing information between ships of the same class](#sharing-information-between-ships-of-the-same-class)
+
 ## Basic Plays
 
 ### Checking if a ship is on your team
