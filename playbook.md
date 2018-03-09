@@ -48,7 +48,7 @@ if (arena.isInRange(this, target)) {
 
 ```java
 @Override
-public void doTurn(Arena arena) {
+protected void doTurn(Arena arena) {
 	int goalX = 7;
 	int goalY = 2;
 	// Moving towards (7, 2) from any point on the map
@@ -71,7 +71,7 @@ public void doTurn(Arena arena) {
 
 ```java
 @Override
-public void doTurn(Arena arena) {
+protected void doTurn(Arena arena) {
 	// Don't forget that the first turn is numbered 0!
 	if (arena.getTurn() % 2 == 0) {
 		// Do something on even-numbered turns
