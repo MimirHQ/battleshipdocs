@@ -25,7 +25,41 @@ if (arena.isInRange(this, target)) {
 
 ### Moving towards a fixed coordinate
 
+```java
+@Override
+public void doTurn(Arena arena) {
+	int goalX = 7;
+	int goalY = 2;
+	// Moving towards (7, 2) from any point on the map
+	// Note: this only works if there are no obstacles in the way
+	Coord coord = this.getCoord();
+	if (coord.getY() > goalY) {
+		this.move(arena, Direction.NORTH);
+	} else if (coord.getY() < goalY) {
+		this.move(arena, Direction.SOUTH);
+	}
+	if (coord.getX() > goalX) {
+		this.move(arena, Direction.WEST);
+	} else if (coord.getX() < goalX) {
+		this.move(arena, Direction.EAST);
+	}
+}
+```
+
 ### Changing behavior on different turns
+
+```java
+@Override
+public void doTurn(Arena arena) {
+	// Don't forget that the first turn is numbered 0!
+	if (arena.getTurn() % 2 == 0) {
+		// Do something on even-numbered turns
+	}
+	if (arena.getTurn() > 15) {
+		// After 15 turns of waiting, I will unleash...
+	}
+}
+```
 
 ## Advanced Plays
 

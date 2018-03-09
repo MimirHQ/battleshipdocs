@@ -1,6 +1,6 @@
 # Welcome to Battleship
 
-Battleship is an extensible naval strategy game designed to teach students about Java programming.
+Battleship is an extensible naval strategy game designed to teach students about Java programming. [You can watch a sample battle here.](https://mimirhq.github.io/davyjoneslocker/?code=mimir%2F-L777DgsqR5EkBYBFGDy)
 
 ![Battleship Preview](preview.png)
 
