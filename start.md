@@ -2,13 +2,20 @@
 
 ## Install the Battleship Core Library
 
-If this is your first time playing, install the battleship core library.
+If this is your first time playing, install the Battleship core library.
 
-Install the battleship library at the same directory level as all the other battleship missions. Run these commands in your terminal to go to the correct directory level and clone the library from GitHub.
+Install the Battleship library at the same directory level as all the other Battleship missions. Run these commands in your terminal to go to the correct directory level and clone the library from GitHub.
 
 ```
 cd ..
 git clone https://github.com/MimirHQ/battleship.git
+```
+
+At any time, if you need to get the latest version of the Battleship library, navigate to the `battleship` folder and run the commands below.
+
+```
+git fetch
+git pull 
 ```
 
 ## Preparing for the Mission
@@ -26,11 +33,11 @@ Then conduct reconnaissance on the enemy ships by reading their source files.
 
 ## Developing Your Ship
 
-Implement your ship in `PlayerShip.java`. [Read the API guide](api.md) to learn how to use the battleship methods.
+Implement your ship in `PlayerShip.java`. [Read the API guide](api.md) to learn how to use the Battleship methods.
 
 ## Running the Mission
 
-Navigate to the directory level that contains the battleship core library and the mission package. Compile and run the mission by running these commands in your terminal. Use the real mission id instead of `missionfoldername`.
+Navigate to the directory level that contains the Battleship core library and the mission package. Compile and run the mission by running these commands in your terminal. Use the real mission id instead of `missionfoldername`.
 
 ```
 javac missionfoldername/Main.java

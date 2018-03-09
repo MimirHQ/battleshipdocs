@@ -62,9 +62,9 @@ void initializeRange(int range)
 These methods can only be called the ship they belong to.
 
 ```java
-void move(Arena arena, Direction direction)
-void fire(Arena arena, int x, int y)
-List<Ship> getNearbyShips(Arena arena)
+void move(Direction direction)
+void fire(int x, int y)
+List<Ship> getNearbyShips()
 ```
 
 ### Public Methods

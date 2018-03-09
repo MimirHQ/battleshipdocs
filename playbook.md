@@ -55,14 +55,14 @@ public void doTurn(Arena arena) {
 	// Note: this only works if there are no obstacles in the way
 	Coord coord = this.getCoord();
 	if (coord.getY() > goalY) {
-		this.move(arena, Direction.NORTH);
+		this.move(Direction.NORTH);
 	} else if (coord.getY() < goalY) {
-		this.move(arena, Direction.SOUTH);
+		this.move(Direction.SOUTH);
 	}
 	if (coord.getX() > goalX) {
-		this.move(arena, Direction.WEST);
+		this.move(Direction.WEST);
 	} else if (coord.getX() < goalX) {
-		this.move(arena, Direction.EAST);
+		this.move(Direction.EAST);
 	}
 }
 ```
