@@ -1,5 +1,7 @@
 # Battleship API
 
+This guide lists all of the methods available to you in Battleship.
+
 * [Ship Class](#ship-class)
 	* [Setting Base Properties](#setting-base-properties)
 	* [Implementing Turn Strategy](#implementing-turn-strategy)
@@ -9,6 +11,8 @@
 * [Arena Class](#arena-class)
 * [Coord Class](#coord-class)
 * [Direction Enum](#direction-enum)
+
+To see common programming tasks in Battleship, [view the playbook.](/playbook)
 
 ## Ship Class
 
