@@ -25,6 +25,8 @@ if (arena.isInRange(this, target)) {
 
 ### Moving towards a fixed coordinate
 
+### Changing behavior on different turns
+
 ## Advanced Plays
 
 ### Firing until a ship sinks
@@ -34,6 +36,8 @@ if (arena.isInRange(this, target)) {
 ### Find the minimum or maximum ship in a list
 
 ### Sorting a list of ships
+
+### Tracking information over multiple turns
 
 ## Elite Plays
 
